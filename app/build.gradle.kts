@@ -4,6 +4,9 @@ plugins {
 }
 
 android {
+    buildFeatures {
+        viewBinding = true
+    }
     namespace = "com.twakeapps.drivingquizapp"
     compileSdk = 34
 
